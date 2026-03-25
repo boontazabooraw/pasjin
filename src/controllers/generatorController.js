@@ -48,7 +48,10 @@ export const generatePassword = async (req, res) => {
         //     password += charset.charAt(Math.floor(Math.random() * charset.length));
         // }
 
-        password = shuffle(password);
+        for (let i = 0; i < password.length; i++) {
+            password = shuffle(password);
+        }
+        
         res.status(200).json({ password });
     } catch (e) {
         console.error(`Error: ${e}`);
