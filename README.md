@@ -47,7 +47,7 @@ Note that it is 3000 by default.
 
 ## Example Usage
 
-The root endpoint supports several query parameters for filtering and sorting results:
+The root endpoint supports several query parameters for adding constraints:
 
 - **length**
 
