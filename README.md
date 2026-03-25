@@ -1,7 +1,7 @@
-# Vape Shops in Bataan API
+# Pasjin
 
 A small Express.js API, built mainly for personal use.
-Curerently deployed on vercel.
+Currently deployed on vercel.
 
 ---
 
